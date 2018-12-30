@@ -8,7 +8,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * Created by new on 30-12-2018.
+ * Created by Vijay R on 30-12-2018.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(value = "classpath:spring-test.xml")
