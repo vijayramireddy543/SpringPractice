@@ -7,8 +7,6 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
-    <!--<bean id="beanC" class="com.practice.second.BeanC"/>
-    <bean id="beanD" class="com.practice.second.BeanD"/>-->
     <context:annotation-config/>
     <context:component-scan base-package="com.practice.second"/>
 </beans>
