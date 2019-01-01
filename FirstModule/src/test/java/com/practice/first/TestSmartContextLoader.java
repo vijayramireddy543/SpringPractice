@@ -10,12 +10,12 @@ import org.springframework.test.context.ContextLoader;
 public class TestSmartContextLoader implements ContextLoader {
 
     public String[] processLocations(Class<?> aClass, String... strings) {
-        System.out.println(" processLocations called "+aClass+"  "+strings.length);
+        System.out.println(" processLocations called " + aClass + "  " + strings.length);
         return new String[0];
     }
 
     public ApplicationContext loadContext(String... strings) throws Exception {
-        System.out.println(" Location is "+strings.length);
-         return new LazyApplicationContext("spring-test.xml");
+        System.out.println(" Location is " + strings.length);
+        return new LazyApplicationContext("spring-test.xml");
     }
 }
