@@ -8,10 +8,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * Created by new on 01-01-2019.
+ * Created by Vijay R on 01-01-2019.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(locations ="classpath:spring-test.xml", loader = TestSmartContextLoader.class)
 @ContextConfiguration(loader = TestSmartContextLoader.class)
 public class LazyInitIntegrationTest {
 
