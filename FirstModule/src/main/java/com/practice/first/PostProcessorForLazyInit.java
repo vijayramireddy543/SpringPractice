@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by new on 30-12-2018.
  */
-@Component
+//@Component
 public class PostProcessorForLazyInit implements BeanFactoryPostProcessor {
     public void postProcessBeanFactory(ConfigurableListableBeanFactory configurableListableBeanFactory) throws BeansException {
 
