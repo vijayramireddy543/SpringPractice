@@ -8,5 +8,5 @@
            http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
     <import resource="classpath:spring-config.xml"/>
-    <import resource="classpath:spring-config-second.xml"/>
+    <!--<import resource="classpath:spring-config-second.xml"/>-->
 </beans>

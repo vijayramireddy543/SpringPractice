@@ -14,13 +14,13 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration(value = "classpath:spring-test.xml")
 public class FirstModuleIntegrationTest {
 
-    @Autowired
+    @Autowired(required = false)
     BeanA beanA;
-    @Autowired
+    //@Autowired
     BeanC beanC;
 
     @Test
     public void testBeanCreationInFirstModule() {
-        System.out.println(" Bean A created or not " + beanA);
+        System.out.println(" Bean A created or not " + beanA.message);
     }
 }
